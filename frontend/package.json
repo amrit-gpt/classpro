@@ -49,3 +49,11 @@
     "typescript": "^5.7.3"
   }
 }
+"scripts": {
+  "dev": "next dev --port 0243",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "install:frontend": "bun install",
+  "build:frontend": "bun run build"
+}
